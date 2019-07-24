@@ -30,6 +30,7 @@ export namespace EmulatorValidation {
             'https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/',                    // ???
             'https://sts.windows.net/cab8a31a-1906-4287-a0d8-4eef66b95f6e/',                    // US Gov Auth, 1.0 token
             'https://login.microsoftonline.us/cab8a31a-1906-4287-a0d8-4eef66b95f6e/v2.0',       // US Gov Auth, 2.0 token
+            'https://sts.windows.net/49415f79-d13b-4a43-9f38-cf9f0f3da4ec/'
         ],
         audience: undefined, // Audience validation takes place manually in code.
         clockTolerance: 5 * 60,
