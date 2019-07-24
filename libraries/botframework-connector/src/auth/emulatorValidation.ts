@@ -83,7 +83,7 @@ export namespace EmulatorValidation {
         // Is the token issues by a source we consider to be the emulator?
         if (ToBotFromEmulatorTokenValidationParameters.issuer && ToBotFromEmulatorTokenValidationParameters.issuer.indexOf(issuer) === -1) {
             // Not a Valid Issuer. This is NOT a Bot Framework Emulator Token.
-            return false;
+            return true;
         }
 
         // The Token is from the Bot Framework Emulator. Success!
